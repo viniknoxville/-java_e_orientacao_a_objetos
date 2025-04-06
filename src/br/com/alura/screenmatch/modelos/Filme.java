@@ -1,31 +1,30 @@
+package br.com.alura.screenmatch.modelos;
+
 // Classe
 public class Filme {
     // atributo
-    String nome;
-    int anoDeLancamento;
-    boolean incluidoNoPlano;
+    private String nome;
+    private int anoDeLancamento;
+    private boolean incluidoNoPlano;
     private double somaDeAvaliacoes;
     private int totalAvaliacoes;
-    int duracaoEmMinutos;
+    private int duracaoEmMinutos;
 
-    int getTotalAvaliacoes(){
+    public int getTotalAvaliacoes(){
         return totalAvaliacoes;
     }
-
     // metodo
-    void exibeFichaTecnica() {
+    public void exibeFichaTecnica() {
         System.out.println("Nome do filme: " + nome);
         System.out.println("Ano de lançamento: " + anoDeLancamento);
     }
-
     // metodo
-    void avalia(double nota) {
+    public void avalia(double nota) {
         somaDeAvaliacoes += nota;
         totalAvaliacoes++;
     }
-
     // metodo
-    double pegaMedia() {
+    public double pegaMedia() {
         return somaDeAvaliacoes / totalAvaliacoes;
     }
 
