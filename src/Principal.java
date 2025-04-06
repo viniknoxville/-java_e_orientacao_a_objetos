@@ -5,9 +5,9 @@ public class Principal {
         //objeto 0
         Filme meuFilme = new Filme();
 
-        meuFilme.nome = "Star Wars: Episódio V - O império Contra Ataca";
-        meuFilme.anoDeLancamento = 1980;
-        meuFilme.duracaoEmMinutos = 124;
+        meuFilme.setNome("Star Wars: Episódio V - O império Contra Ataca");
+        meuFilme.setAnoDeLancamento(1980);
+        meuFilme.setDuracaoEmMinutos(124);
 
         meuFilme.exibeFichaTecnica();
 
