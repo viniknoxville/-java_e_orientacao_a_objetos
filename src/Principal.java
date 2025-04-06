@@ -1,6 +1,8 @@
 public class Principal {
     public static void main(String[] args) {
+        //objeto 0
         Filme meuFilme = new Filme();
+
         meuFilme.nome = "Star Wars: Episódio V - O império Contra Ataca";
         meuFilme.anoDeLancamento = 1980;
         meuFilme.duracaoEmMinutos = 124;
@@ -10,9 +12,8 @@ public class Principal {
         meuFilme.avalia(8);
         meuFilme.avalia(5);
         meuFilme.avalia(10);
-        System.out.println(meuFilme.somaDeAvaliacoes);
-        System.out.println(meuFilme.totalAvaliacoes);
-        System.out.println(meuFilme.pegaMedia());
+
+        System.out.println("Total de avaliações: " + meuFilme.getTotalAvaliacoes());
     }
 }
 
