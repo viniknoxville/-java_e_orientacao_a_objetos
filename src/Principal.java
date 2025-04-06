@@ -8,6 +8,8 @@ public class Principal {
         meuFilme.setNome("Star Wars: Episódio V - O império Contra Ataca");
         meuFilme.setAnoDeLancamento(1980);
         meuFilme.setDuracaoEmMinutos(124);
+        meuFilme.setIncluidoNoPlano(true);
+
 
         meuFilme.exibeFichaTecnica();
 
