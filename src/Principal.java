@@ -1,23 +1,50 @@
+import br.com.alura.screenmatch.calculo.CalculadoraDeTempo;
 import br.com.alura.screenmatch.modelos.Filme;
+import br.com.alura.screenmatch.modelos.Serie;
+import br.com.alura.screenmatch.modelos.Titulo;
 
 public class Principal {
     public static void main(String[] args) {
         //objeto 0
-        Filme meuFilme = new Filme();
+        Filme filme = new Filme();
 
-        meuFilme.setNome("Star Wars: Episódio V - O império Contra Ataca");
-        meuFilme.setAnoDeLancamento(1980);
-        meuFilme.setDuracaoEmMinutos(124);
-        meuFilme.setIncluidoNoPlano(true);
+        filme.setNome("Star Wars: Episódio V - O império Contra Ataca");
+        filme.setAnoDeLancamento(1980);
+        filme.setDuracaoEmMinutos(124);
+        System.out.println("Duração do filme: " + filme.getDuracaoEmMinutos());
 
 
-        meuFilme.exibeFichaTecnica();
+        filme.exibeFichaTecnica();
+        filme.avalia(8);
+        filme.avalia(5);
+        filme.avalia(10);
 
-        meuFilme.avalia(8);
-        meuFilme.avalia(5);
-        meuFilme.avalia(10);
+        System.out.println("Total de avaliações: " + filme.getTotalDeAvaliacoes());
 
-        System.out.println("Total de avaliações: " + meuFilme.getTotalAvaliacoes());
+        Serie serie = new Serie();
+        serie.setNome("Lost");
+        serie.setAnoDeLancamento(2000);
+        serie.exibeFichaTecnica();
+        serie.setTemporadas(10);
+        serie.setEpisodiosPorTemporada(10);
+        serie.setMinutosPorEpisodio(50);
+        System.out.println("Duração da série: " + serie.getDuracaoEmMinutos() + " min");
+
+        Filme filme2 = new Filme();
+        filme2.setNome("Avatar");
+        filme2.setAnoDeLancamento(2003);
+        filme2.setDuracaoEmMinutos(200);
+
+        CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+        calculadora.inclui(filme);
+        calculadora.inclui(filme2);
+        calculadora.inclui(serie);
+        System.out.println(calculadora.getTempoTotal());
+
+
+
+
+
     }
 }
 
