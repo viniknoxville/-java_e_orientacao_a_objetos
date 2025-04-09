@@ -1,4 +1,4 @@
-![Banner](img/Captura de tela 2025-02-27 180721.png)
+![Banner](img/one.png)
 
 # ONE | Tech Foundation – Especialização Back-End
 
