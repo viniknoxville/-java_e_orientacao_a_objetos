@@ -12,72 +12,59 @@ A etapa **Tech Foundation** representa a base da formação, abordando conceitos
 
 ---
 
-## Curso: Java – Aplicando a Orientação a Objetos ☕🧱
+## ☕ Curso: Java – Aplicando a Orientação a Objetos
 
-Este repositório foi desenvolvido como parte do curso **Java: Aplicando a Orientação a Objetos**, integrante da formação **ONE | Back-End**.
-
-
-
-## 🚀 Tecnologias Utilizadas
-
-- Java 21
-- IDE IntelliJ 
-- Paradigma de Programação Orientado a Objetos
+Este repositório contém os projetos desenvolvidos durante o curso **Java: Aplicando a Orientação a Objetos**, parte da formação **ONE | Tech Foundation – Especialização Back-End**.
 
 ---
 
-## 📚 Conteúdos Abordados
+## 🧪 Tecnologias Utilizadas
 
-### ✅ Fundamentos da Programação Orientada a Objetos
+- Java 21
+- IntelliJ IDEA
+- Programação Orientada a Objetos (POO)
+
+---
+
+## 📘 Conteúdos Estudados
+
+### 🧱 Fundamentos de POO
 - Modelagem de classes, atributos e métodos  
 - Instanciação e manipulação de objetos  
-- Criação de comportamentos com métodos  
+- Criação de comportamentos personalizados  
 
 ### 🔐 Encapsulamento
 - Controle de acesso com modificadores (`private`, `public`, `protected`)  
-- Métodos `get` e `set`  
-- Palavra-chave `this`  
-- Organização e boas práticas (JavaDoc e estrutura de pacotes)  
+- Métodos de acesso (`getters` e `setters`)  
+- Uso da palavra-chave `this`  
+- Organização de pacotes e documentação com JavaDoc  
 
-### 🧬 Herança
+### 🧬 Herança & Polimorfismo
 - Reaproveitamento de código com herança  
-- Sobrescrita de métodos (polimorfismo)  
+- Sobrescrita de métodos  
+- Generalização e especialização de classes  
 - Uso de `super` e `protected`  
 
-### 🔄 Polimorfismo
-- Flexibilidade e reutilização de comportamentos  
-- Generalização e especialização de classes  
-
-### 🧩 Interfaces
-- Definição de contratos para classes  
-- Implementação de múltiplos comportamentos comuns  
+### 🔗 Interfaces
+- Definição e implementação de contratos entre classes  
+- Comportamentos múltiplos e reutilizáveis  
 
 ---
 
-## 🛠️ Projetos Desenvolvidos
+## 🛠️ Projeto Desenvolvido: **ScreenMatch**
 
-### 🎬 ScreenMatch
+Aplicação para cadastro e classificação de **filmes e séries**, com funcionalidades como:
 
-Um sistema para representar **filmes e séries**, com funcionalidades como:
-
-- Cadastro de obras com título, duração, avaliações  
-- Classificação com base em critérios definidos  
-- Uso de herança para séries e filmes  
+- Registro de título, duração e avaliação  
+- Diferenciação entre filmes e séries via herança  
+- Avaliação com base em critérios personalizados  
 
 ---
 
-## 🧠 O que Aprendi
+## 🎯 Aprendizados
 
-- Aplicação prática dos pilares da orientação a objetos  
-- Modelagem de sistemas com reutilização de código  
-- Escrita de código limpo e bem documentado  
-- Organização de projetos em Java com boas práticas  
-
----
-
-## 🏁 Conclusão
-
-Este repositório representa a **evolução prática** nos estudos de Java com foco em orientação a objetos.  
-Os projetos desenvolvidos simulam situações reais de desenvolvimento, proporcionando uma base sólida para projetos mais complexos.
+- Prática dos pilares da orientação a objetos  
+- Estruturação de código limpo e reutilizável  
+- Organização de projetos com boas práticas em Java  
 
 ---
