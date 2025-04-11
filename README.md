@@ -67,4 +67,3 @@ Aplicação para cadastro e classificação de **filmes e séries**, com funcion
 - Estruturação de código limpo e reutilizável  
 - Organização de projetos com boas práticas em Java  
 
----
